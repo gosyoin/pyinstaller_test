@@ -1,3 +1,3 @@
 cd /d %~dp0
-pyinstaller -F test.py
+pyinstaller test.py --onedir --onefile --noconsole --clean
 pause
